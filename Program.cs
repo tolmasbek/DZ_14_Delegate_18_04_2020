@@ -5,6 +5,7 @@ namespace DZ_14_Delegate
 {
     class Program
     {
+        delegate T DelegateCalc<T>(T num1, T num2);
         static void Main(string[] args)
         {
             /*
@@ -17,17 +18,43 @@ namespace DZ_14_Delegate
                     необходимость от выбора пользователя и присвоить метод как значение к делегату.
                         1. Вызов методов происходит только по средством делегата.
             */
-            System.Console.Write("Введиет num_1: ");
-            int num_1 = int.Parse(Console.ReadLine());
-            System.Console.Write("Введиет num_2: ");
-            int num_2 = int.Parse(Console.ReadLine());
+            System.Console.Write("Введиет num1: ");
+            double num1 = double.Parse(Console.ReadLine());
+            System.Console.Write("Введиет num2: ");
+            double num2 = double.Parse(Console.ReadLine());
             
             System.Console.WriteLine("Выберите один из действий для этих чисел: ");
             System.Console.WriteLine("1: -,\n2: +,\n3: /,\n4: *.");
             System.Console.Write("Ваш выбор: "); 
 
-            int choise = int.Parse(Console.ReadLine());
-            
+            double choise = double.Parse(Console.ReadLine());
+            switch(choise)
+            {
+                case 1:
+                {
+                    DelegateCalc<double> minus = CalculatorFunctions.Minus;
+                    System.Console.WriteLine(minus.Invoke(num1,num2));
+                    break;
+                }
+                case 2:
+                {
+                    DelegateCalc<double> minus = CalculatorFunctions.Plus;
+                    System.Console.WriteLine(minus.Invoke(num1,num2));
+                    break;
+                }
+                case 3:
+                {
+                    DelegateCalc<double> minus = CalculatorFunctions.Division;
+                    System.Console.WriteLine(minus.Invoke(num1,num2));
+                    break;
+                }
+                case 4:
+                {
+                    DelegateCalc<double> minus = CalculatorFunctions.Multiplication;
+                    System.Console.WriteLine(minus.Invoke(num1,num2));
+                    break;
+                }
+            }
             Console.ReadKey();
         }    
     }

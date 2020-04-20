@@ -7,7 +7,7 @@ namespace CalculatorFunctionsSpase
             T vichitanie = (dynamic) num_1 - (dynamic) num_2;
             return vichitanie;
         }
-        
+
         public static T Plus<T>(T num_1, T num_2)
         {
             T slozhenie = (dynamic) num_1 + (dynamic) num_2;
