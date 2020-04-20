@@ -5,7 +5,7 @@ namespace DZ_14_Delegate
 {
     class Program
     {
-        delegate T DelegateCalc<T>(T num1, T num2);
+        delegate T DelegateCalc <T> (T num1, T num2);
         static void Main(string[] args)
         {
             /*
@@ -38,20 +38,20 @@ namespace DZ_14_Delegate
                 }
                 case 2:
                 {
-                    DelegateCalc<double> minus = CalculatorFunctions.Plus;
-                    System.Console.WriteLine(minus.Invoke(num1,num2));
+                    DelegateCalc<double> plus = CalculatorFunctions.Plus;
+                    System.Console.WriteLine(plus.Invoke(num1,num2));
                     break;
                 }
                 case 3:
                 {
-                    DelegateCalc<double> minus = CalculatorFunctions.Division;
-                    System.Console.WriteLine(minus.Invoke(num1,num2));
+                    DelegateCalc<double> division = CalculatorFunctions.Division;
+                    System.Console.WriteLine(division.Invoke(num1,num2));
                     break;
                 }
                 case 4:
                 {
-                    DelegateCalc<double> minus = CalculatorFunctions.Multiplication;
-                    System.Console.WriteLine(minus.Invoke(num1,num2));
+                    DelegateCalc<double> multiplication = CalculatorFunctions.Multiplication;
+                    System.Console.WriteLine(multiplication.Invoke(num1,num2));
                     break;
                 }
             }
