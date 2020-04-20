@@ -1,0 +1,13 @@
+C:\Users\Tolmasbek\Desktop\DZ_14_Delegate\bin\Debug\netcoreapp3.1\DZ_14_Delegate.exe
+C:\Users\Tolmasbek\Desktop\DZ_14_Delegate\bin\Debug\netcoreapp3.1\DZ_14_Delegate.deps.json
+C:\Users\Tolmasbek\Desktop\DZ_14_Delegate\bin\Debug\netcoreapp3.1\DZ_14_Delegate.runtimeconfig.json
+C:\Users\Tolmasbek\Desktop\DZ_14_Delegate\bin\Debug\netcoreapp3.1\DZ_14_Delegate.runtimeconfig.dev.json
+C:\Users\Tolmasbek\Desktop\DZ_14_Delegate\bin\Debug\netcoreapp3.1\DZ_14_Delegate.dll
+C:\Users\Tolmasbek\Desktop\DZ_14_Delegate\bin\Debug\netcoreapp3.1\DZ_14_Delegate.pdb
+C:\Users\Tolmasbek\Desktop\DZ_14_Delegate\obj\Debug\netcoreapp3.1\DZ_14_Delegate.csprojAssemblyReference.cache
+C:\Users\Tolmasbek\Desktop\DZ_14_Delegate\obj\Debug\netcoreapp3.1\DZ_14_Delegate.csproj.CoreCompileInputs.cache
+C:\Users\Tolmasbek\Desktop\DZ_14_Delegate\obj\Debug\netcoreapp3.1\DZ_14_Delegate.AssemblyInfoInputs.cache
+C:\Users\Tolmasbek\Desktop\DZ_14_Delegate\obj\Debug\netcoreapp3.1\DZ_14_Delegate.AssemblyInfo.cs
+C:\Users\Tolmasbek\Desktop\DZ_14_Delegate\obj\Debug\netcoreapp3.1\DZ_14_Delegate.dll
+C:\Users\Tolmasbek\Desktop\DZ_14_Delegate\obj\Debug\netcoreapp3.1\DZ_14_Delegate.pdb
+C:\Users\Tolmasbek\Desktop\DZ_14_Delegate\obj\Debug\netcoreapp3.1\DZ_14_Delegate.genruntimeconfig.cache

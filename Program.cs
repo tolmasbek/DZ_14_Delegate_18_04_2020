@@ -1,4 +1,5 @@
 ﻿using System;
+using CalculatorFunctionsSpase;
 
 namespace DZ_14_Delegate
 {
@@ -16,10 +17,18 @@ namespace DZ_14_Delegate
                     необходимость от выбора пользователя и присвоить метод как значение к делегату.
                         1. Вызов методов происходит только по средством делегата.
             */
+            System.Console.Write("Введиет num_1: ");
+            int num_1 = int.Parse(Console.ReadLine());
+            System.Console.Write("Введиет num_2: ");
+            int num_2 = int.Parse(Console.ReadLine());
+            
+            System.Console.WriteLine("Выберите один из действий для этих чисел: ");
+            System.Console.WriteLine("1: -,\n2: +,\n3: /,\n4: *.");
+            System.Console.Write("Ваш выбор: "); 
 
-
+            int choise = int.Parse(Console.ReadLine());
+            
             Console.ReadKey();
-        }
-    
+        }    
     }
 }
